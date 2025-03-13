@@ -1,0 +1,10 @@
+.topnav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#aboutsection > h2 {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+}
