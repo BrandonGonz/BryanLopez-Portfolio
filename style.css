@@ -3,8 +3,67 @@
   justify-content: space-between;
 }
 
-#aboutsection > h2 {
+/* ABOUT SECTION */
+#about-section {
   display: flex;
-  justify-content: center;
-  padding: 10%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#about-section img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#about-section p {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* INTEREST SECTION  */
+#interest-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#interest-section img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#interest-section h3 {
+  font-size: 22px;
+  margin-top: 15px;
+  color: #0b0b0b;
+}
+
+#interest-section ul {
+  list-style: none; /* Removes default bullet points */
+  padding: 0;
+}
+
+#interest-section li {
+  font-size: 18px;
+  background-color: #ffdd57;
+  /padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
 }
