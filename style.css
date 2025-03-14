@@ -1,6 +1,16 @@
 .topnav {
   display: flex;
   justify-content: space-between;
+  background-color: #ffdd57;
+}
+
+/* BODY */
+body {
+  background-color: #292b2f;
+  /color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* ABOUT SECTION */
@@ -8,7 +18,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  background-color: #5484bb;
+  /gap: 20px;
   padding: 20px;
   max-width: 900px;
   margin: 0 auto;
@@ -34,7 +45,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #5484bb;
   padding: 20px;
   border-radius: 10px;
   max-width: 600px;
@@ -55,7 +66,7 @@
 }
 
 #interest-section ul {
-  list-style: none; /* Removes default bullet points */
+  list-style: none;
   padding: 0;
 }
 
@@ -66,4 +77,70 @@
   margin: 5px;
   border-radius: 5px;
   display: inline-block;
+}
+
+/* EXTRA SECTION  */
+
+#extras-section {
+  text-align: center;
+  background-color: #5484bb;
+
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+#extras-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#extras-section img {
+  width: 45%;
+  max-width: 300px;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#extras-section img:last-of-type {
+  max-width: 250px;
+}
+
+/* Design Section Styling */
+#design-section {
+  background-color: #5484bb;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Image Styling */
+#design-section img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+/* Text & List Styling */
+#design-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#design-section li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
 }
